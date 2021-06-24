@@ -1,4 +1,8 @@
-
+.card-footer  {
+    border-top: none;
+    background-color: white;
+  
+}
 
 .container {
     margin-bottom: 50px
@@ -26,6 +30,7 @@
     cursor: pointer;
     display: flex;
     align-items: flex-end;
+    margin-top: 10px;
 }
 
 .cat-1 {
@@ -56,5 +61,17 @@
 .card {
     border: none;
     box-shadow: 5px 5px 15px lightgrey;
-    border-radius: 50%;
+    border-radius: 20px;
+}
+
+.subscribe {
+    height: 300px;
+}
+
+.subscribe h6 {
+    color: gray;
+}
+
+footer {
+    text-align: center;
 }
